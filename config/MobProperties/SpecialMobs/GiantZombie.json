@@ -1,0 +1,15 @@
+{
+	"_name": "SpecialMobs.GiantZombie",
+	"drops": [
+    {
+      "function": "remove",
+      "id": 391
+    },
+    {
+      "function": "remove",
+      "id": 392
+    }
+  ],
+  "stats": [
+  ]
+}

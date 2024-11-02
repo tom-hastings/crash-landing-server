@@ -1,0 +1,11 @@
+{
+	"_name": "SpecialMobs.BabySpider",
+	"drops": [],
+    "stats": [
+    {
+      "function": "modifier",
+      "attribute": "generic.followRange",
+      "value": 40
+    }
+  ]
+}

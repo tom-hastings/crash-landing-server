@@ -1,0 +1,17 @@
+   {
+    	id: 3506,
+    	nameid: "highOvencracked3",
+    	name: "Crumbling Scorched Bricks",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }
+

@@ -1,0 +1,17 @@
+   {
+    	id: 3536,
+    	nameid: "garagedoorleft",
+    	name: "Garage Door Left",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }
+

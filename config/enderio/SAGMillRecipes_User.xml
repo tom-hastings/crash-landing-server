@@ -1,0 +1,371 @@
+<!--
+This is the user configurable SAG Mill recipe file. This file will not be modified or removed by EnderIO.
+
+Adding new Recipes:
+For details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+Removing Recipes:
+To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+<recipeGroup name="Forestry" enabled="false"/>
+
+To disable individual recipes, simply provide an invalid recipe for them:
+
+<recipeGroup name="Applied Energistics">
+  <recipe name="CertusQuartzOre"/>
+</recipeGroup>
+
+To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as
+found in the core file.
+ 
+-->
+
+<SAGMillRecipes>
+
+<!-- Disables all recipes in the group 'Vanilla'
+<recipeGroup name="Vanilla" enabled="false"/> 
+-->
+
+<!-- Uncomment this block to change the default TE obsidian -> dust recipe to the railcraft recipe.  
+  <recipeGroup name="Thermal Expansion">
+  
+    <recipe name="Obsidian" energyCost="400">
+      <input>
+        <itemStack itemID="49" />
+      </input>      
+      <output>
+        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
+      </output>
+    </recipe>
+    
+</recipeGroup> 
+-->
+
+<!-- Disables the glass recipes in the group 'Vanilla' 
+<recipeGroup name="Vanilla"> 
+  <recipe name="Glass"/> 
+</recipeGroup>
+-->
+
+
+<!-- Modify a core recipe defination, in this case, make glass give diamonds. 
+<recipeGroup name="Vanilla">
+  <recipe name="Glass" energyCost="120"> 
+      <input>
+        <itemStack itemID="20" />
+      </input>
+      <output>
+        <itemStack itemID="264" />
+      </output>
+    </recipe>
+</recipeGroup>
+-->
+
+<!-- Adding a new recipe to a new group 
+<recipeGroup name="CrazyPantsGroup">
+  <recipe name="SolarToGlass" energyCost="120"> 
+      <input>
+        <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel"/>
+      </input>
+      <output>
+        <itemStack itemID="20" />
+      </output>
+    </recipe>
+</recipeGroup>
+-->
+
+ <recipeGroup name="Landstryder"> 
+ 
+    <recipe name="BlazeRod" energyCost="240">
+      <input>
+        <itemStack itemID="369"/>
+      </input>
+      <output>
+        <itemStack itemID="377" number="4"/>
+        <itemStack oreDictionary="dustSulfur" chance="0.5"/>
+      </output>
+    </recipe>
+	
+	<recipe name="Sandstone" energyCost="240">
+      <input>
+        <itemStack oreDictionary="sandstone"/>
+      </input>
+      <output>
+        <itemStack oreDictionary="blockSand" number="2"/>
+		<itemStack oreDictionary="blockSand" number="1" chance=".25"/>
+        <itemStack oreDictionary="dustSaltpeter" chance="0.15"/>
+      </output>
+    </recipe>
+	
+	<recipe name="IronGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3304"/>
+      </input>
+      <output>
+        <itemStack itemID="3304" itemMeta="1" number="1"/>
+		<itemStack itemID="18035" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="IronSand" energyCost="400">
+      <input>
+        <itemStack itemID="3304" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3304" itemMeta="2" number="1"/>
+		<itemStack itemID="18036" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="GoldGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3305"/>
+      </input>
+      <output>
+        <itemStack itemID="3305" itemMeta="1" number="1"/>
+		<itemStack itemID="18038" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="GoldSand" energyCost="400">
+      <input>
+        <itemStack itemID="3305" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3305" itemMeta="2" number="1"/>
+		<itemStack itemID="18039" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="CopperGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3309"/>
+      </input>
+      <output>
+        <itemStack itemID="3309" itemMeta="1" number="1" />
+		<itemStack itemID="18041" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="CopperSand" energyCost="400">
+      <input>
+        <itemStack itemID="3309" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3309" itemMeta="2" number="1"/>
+		<itemStack itemID="18042" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="TinGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3310"/>
+      </input>
+      <output>
+        <itemStack itemID="3310" itemMeta="1" number="1"/>
+		<itemStack itemID="18044" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="TinSand" energyCost="400">
+      <input>
+        <itemStack itemID="3310" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3310" itemMeta="2" number="1"/>
+		<itemStack itemID="18045" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="SilverGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3311"/>
+      </input>
+      <output>
+        <itemStack itemID="3311" itemMeta="1" number="1"/>
+		<itemStack itemID="18050" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="SilverSand" energyCost="400">
+      <input>
+        <itemStack itemID="3311" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3311" itemMeta="2" number="1"/>
+		<itemStack itemID="18051" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="LeadGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3312"/>
+      </input>
+      <output>
+        <itemStack itemID="3312" itemMeta="1" number="1"/>
+		<itemStack itemID="18047" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="LeadSand" energyCost="400">
+      <input>
+        <itemStack itemID="3312" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3312" itemMeta="2" number="1"/>
+		<itemStack itemID="18048" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="PlatinumGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3314"/>
+      </input>
+      <output>
+        <itemStack itemID="3314" itemMeta="1" number="1"/>
+		<itemStack itemID="18056" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="PlatinumSand" energyCost="400">
+      <input>
+        <itemStack itemID="3314" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3314" itemMeta="2" number="1"/>
+		<itemStack itemID="18057" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="NickelGravel" energyCost="400">
+      <input>
+        <itemStack itemID="3315"/>
+      </input>
+      <output>
+        <itemStack itemID="3315" itemMeta="1" number="1"/>
+		<itemStack itemID="18059" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="NickelSand" energyCost="400">
+      <input>
+        <itemStack itemID="3315" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="3315" itemMeta="2" number="1"/>
+		<itemStack itemID="18060" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="AluminumGravel" energyCost="400">
+      <input>
+        <itemStack itemID="4095"/>
+      </input>
+      <output>
+        <itemStack itemID="4095" itemMeta="1" number="1"/>
+		<itemStack itemID="18062" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="AluminumSand" energyCost="400">
+      <input>
+        <itemStack itemID="4095" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="4095" itemMeta="2" number="1"/>
+		<itemStack itemID="18063" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="ArditeGravel" energyCost="400">
+      <input>
+        <itemStack itemID="2301"/>
+      </input>
+      <output>
+        <itemStack itemID="2301" itemMeta="1" number="1"/>
+		<itemStack itemID="31757" itemMeta="1"  chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="ArditeSand" energyCost="400">
+      <input>
+        <itemStack itemID="2301" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="2301" itemMeta="2" number="1"/>
+		<itemStack itemID="31757" itemMeta="2" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="CobaltGravel" energyCost="400">
+      <input>
+        <itemStack itemID="2300"/>
+      </input>
+      <output>
+        <itemStack itemID="2300" itemMeta="1" number="1"/>
+		<itemStack itemID="31756" itemMeta="1"  chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="CabaltSand" energyCost="400">
+      <input>
+        <itemStack itemID="2300" itemMeta="1"/>
+      </input>
+      <output>
+        <itemStack itemID="2300" itemMeta="2" number="1"/>
+		<itemStack itemID="31756" itemMeta="2" number="1" chance=".4"/>
+      </output>
+    </recipe>
+	
+	<recipe name="RestoneConduit" energyCost="250">
+      <input>
+        <itemStack itemID="20264" itemMeta="2"/>
+      </input>
+      <output>
+        <itemStack oreDictionary="dustRedstone" number="1"/>
+		<itemStack oreDictionary="nuggetElectrum" number="3"/>
+      </output>
+    </recipe>
+	
+	<recipe name="FireCharge" energyCost="250">
+      <input>
+        <itemStack itemID="385"/>
+      </input>
+      <output>
+        <itemStack oreDictionary="dustSulfur" number="1" chance=".15"/>
+		<itemStack oreDictionary="dustSaltpeter" number="1" chance=".15"/>
+		<itemStack oreDictionary="dustCoal" number="1" chance=".5"/>
+      </output>
+    </recipe>
+	
+	<recipe name="Gunpowder" energyCost="250">
+      <input>
+        <itemStack itemID="289"/>
+      </input>
+      <output>
+        <itemStack oreDictionary="dustSulfur" number="1" chance=".1"/>
+		<itemStack oreDictionary="dustSaltpeter" number="1" chance=".1"/>
+		<itemStack oreDictionary="dustCoal" number="1" chance=".15"/>
+      </output>
+    </recipe>
+	
+	<recipe name="GunpowderBlock" energyCost="250">
+      <input>
+        <itemStack itemID="3402"/>
+      </input>
+      <output>
+        <itemStack oreDictionary="dustSulfur" number="1" chance=".9"/>
+		<itemStack oreDictionary="dustSaltpeter" number="1" chance=".9"/>
+		<itemStack oreDictionary="dustCoal" number="1"/>
+      </output>
+    </recipe>
+	
+ </recipeGroup>
+ 
+</SAGMillRecipes>

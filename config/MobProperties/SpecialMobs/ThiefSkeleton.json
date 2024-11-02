@@ -1,0 +1,11 @@
+{
+	"_name": "SpecialMobs.ThiefSkeleton",
+	"drops": [],
+  "stats": [
+    {
+      "function": "modifier",
+      "attribute": "generic.followRange",
+      "value": 40
+    }
+  ]
+}

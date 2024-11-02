@@ -1,0 +1,46 @@
+weight=2000
+embed_into_distance=1
+dimensions=1,2,5
+max_leveling=10
+max_cut_in=10
+merge_walls = 1
+
+building_templates=apartment.tml
+walk_height=1
+min_length=100
+max_length=400
+building_interval=50
+make_buildings=0
+make_end_towers=0
+make_gatehouse_towers = 0 
+
+#default towers
+tower_rule=1
+default_tower_weight=0
+spawner_rule=0,10,305
+spawner_count=3
+circular_probability=0.8
+square_min_height=8
+square_max_height=14
+square_min_width=7
+square_max_width=7
+circular_tower_min_height=10
+circular_tower_max_height=30
+circular_tower_min_width=7
+circular_tower_max_width=7
+
+rule1=0,100,3134-2,3134-8
+rule2=0,100,3134-2,3134-8
+rule3=0,100,300
+rule4=0,60,2782
+
+
+layer
+3,3,3,3,3
+2,2,1,2,2
+endlayer
+
+
+layer:base
+1,1,1,1,1
+endlayer

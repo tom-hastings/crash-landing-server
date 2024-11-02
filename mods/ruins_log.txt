@@ -1,0 +1,234 @@
+Loading the generic ruins templates...
+
+Loading the dust planet ruins templates...
+Successfully loaded template dune.tml with weight 35.
+Successfully loaded template dune2.tml with weight 35.
+Successfully loaded template dune3.tml with weight 35.
+Successfully loaded template dune4.tml with weight 35.
+Successfully loaded template dune5.tml with weight 35.
+Successfully loaded template dune6.tml with weight 35.
+Successfully loaded template dune7.tml with weight 35.
+Successfully loaded template farm.tml with weight 1.
+Successfully loaded template grave.tml with weight 1.
+template large dune.tmlalso registered for Biome Desert
+Successfully loaded template large dune.tml with weight 750.
+template small dune.tmlalso registered for Biome Desert
+Successfully loaded template small dune.tml with weight 750.
+Loaded Dust Planet ruins templates, biomeID 0
+
+Loading the plains ruins templates...
+Loaded Plains ruins templates, biomeID 1
+
+Loading the desert ruins templates...
+Loaded Desert ruins templates, biomeID 2
+
+Loading the extreme hills ruins templates...
+Loaded Extreme Hills ruins templates, biomeID 3
+
+Loading the forest ruins templates...
+Loaded Forest ruins templates, biomeID 4
+
+Loading the taiga ruins templates...
+Loaded Taiga ruins templates, biomeID 5
+
+Loading the swampland ruins templates...
+Loaded Swampland ruins templates, biomeID 6
+
+Loading the river ruins templates...
+Loaded River ruins templates, biomeID 7
+
+Loading the hell ruins templates...
+Loaded Hell ruins templates, biomeID 8
+
+Loading the sky ruins templates...
+Loaded Sky ruins templates, biomeID 9
+
+Loading the dust planet ruins templates...
+Successfully loaded template dune.tml with weight 35.
+Successfully loaded template dune2.tml with weight 35.
+Successfully loaded template dune3.tml with weight 35.
+Successfully loaded template dune4.tml with weight 35.
+Successfully loaded template dune5.tml with weight 35.
+Successfully loaded template dune6.tml with weight 35.
+Successfully loaded template dune7.tml with weight 35.
+Successfully loaded template farm.tml with weight 1.
+Successfully loaded template grave.tml with weight 1.
+template large dune.tmlalso registered for Biome Desert
+template large dune.tmlalso registered for Biome Dust Planet
+Successfully loaded template large dune.tml with weight 750.
+template small dune.tmlalso registered for Biome Desert
+template small dune.tmlalso registered for Biome Dust Planet
+Successfully loaded template small dune.tml with weight 750.
+Loaded Dust Planet ruins templates, biomeID 10
+
+Loading the frozenriver ruins templates...
+Loaded FrozenRiver ruins templates, biomeID 11
+
+Loading the ice plains ruins templates...
+Loaded Ice Plains ruins templates, biomeID 12
+
+Loading the ice mountains ruins templates...
+Loaded Ice Mountains ruins templates, biomeID 13
+
+Loading the mushroomisland ruins templates...
+Loaded MushroomIsland ruins templates, biomeID 14
+
+Loading the mushroomislandshore ruins templates...
+Loaded MushroomIslandShore ruins templates, biomeID 15
+
+Loading the dust planet ruins templates...
+Successfully loaded template dune.tml with weight 35.
+Successfully loaded template dune2.tml with weight 35.
+Successfully loaded template dune3.tml with weight 35.
+Successfully loaded template dune4.tml with weight 35.
+Successfully loaded template dune5.tml with weight 35.
+Successfully loaded template dune6.tml with weight 35.
+Successfully loaded template dune7.tml with weight 35.
+Successfully loaded template farm.tml with weight 1.
+Successfully loaded template grave.tml with weight 1.
+template large dune.tmlalso registered for Biome Desert
+template large dune.tmlalso registered for Biome Dust Planet
+Successfully loaded template large dune.tml with weight 750.
+template small dune.tmlalso registered for Biome Desert
+template small dune.tmlalso registered for Biome Dust Planet
+Successfully loaded template small dune.tml with weight 750.
+Loaded Dust Planet ruins templates, biomeID 16
+
+Loading the deserthills ruins templates...
+Loaded DesertHills ruins templates, biomeID 17
+
+Loading the foresthills ruins templates...
+Loaded ForestHills ruins templates, biomeID 18
+
+Loading the taigahills ruins templates...
+Loaded TaigaHills ruins templates, biomeID 19
+
+Loading the extreme hills edge ruins templates...
+Loaded Extreme Hills Edge ruins templates, biomeID 20
+
+Loading the jungle ruins templates...
+Loaded Jungle ruins templates, biomeID 21
+
+Loading the junglehills ruins templates...
+Loaded JungleHills ruins templates, biomeID 22
+
+Loading the storage cell ruins templates...
+Loaded Storage Cell ruins templates, biomeID 23
+
+Loading excluded list from: C:\Users\tomas\Documents\cl-server\Crash Landing 1_1_3\DIM1
+No exclusions found for this world.
+
+Loading options from: C:\Users\tomas\Documents\cl-server\Crash Landing 1_1_3\DIM1
+Ruins is now loading the rotation mappings file C:\Users\tomas\Documents\cl-server\.\mods\resources\ruins\rotation_mappings.txt
+Now reading mappings for [53;67;108;109;114;128;134;135;136]
+Saving Mapping DIR[1] FROM[0] TO[2]
+Saving Mapping DIR[1] FROM[1] TO[3]
+Saving Mapping DIR[1] FROM[2] TO[1]
+Saving Mapping DIR[1] FROM[3] TO[0]
+Saving Mapping DIR[1] FROM[4] TO[6]
+Saving Mapping DIR[1] FROM[5] TO[7]
+Saving Mapping DIR[1] FROM[6] TO[5]
+Saving Mapping DIR[1] FROM[7] TO[4]
+Saving Mapping DIR[2] FROM[0] TO[1]
+Saving Mapping DIR[2] FROM[1] TO[0]
+Saving Mapping DIR[2] FROM[2] TO[3]
+Saving Mapping DIR[2] FROM[3] TO[2]
+Saving Mapping DIR[2] FROM[4] TO[5]
+Saving Mapping DIR[2] FROM[5] TO[4]
+Saving Mapping DIR[2] FROM[6] TO[7]
+Saving Mapping DIR[2] FROM[7] TO[6]
+Saving Mapping DIR[3] FROM[0] TO[3]
+Saving Mapping DIR[3] FROM[1] TO[2]
+Saving Mapping DIR[3] FROM[2] TO[0]
+Saving Mapping DIR[3] FROM[3] TO[1]
+Saving Mapping DIR[3] FROM[4] TO[7]
+Saving Mapping DIR[3] FROM[5] TO[6]
+Saving Mapping DIR[3] FROM[6] TO[4]
+Saving Mapping DIR[3] FROM[7] TO[5]
+Now reading mappings for [tile.tripWireSource]
+Mapped Block name [tile.tripWireSource] to ID [131]
+Saving Mapping DIR[1] FROM[1] TO[2]
+Saving Mapping DIR[1] FROM[2] TO[3]
+Saving Mapping DIR[1] FROM[3] TO[0]
+Saving Mapping DIR[1] FROM[0] TO[1]
+Saving Mapping DIR[2] FROM[0] TO[2]
+Saving Mapping DIR[2] FROM[1] TO[3]
+Saving Mapping DIR[2] FROM[2] TO[0]
+Saving Mapping DIR[2] FROM[3] TO[1]
+Saving Mapping DIR[3] FROM[0] TO[3]
+Saving Mapping DIR[3] FROM[2] TO[1]
+Saving Mapping DIR[3] FROM[3] TO[2]
+Saving Mapping DIR[3] FROM[1] TO[0]
+Now reading mappings for [29;34]
+Saving Mapping DIR[1] FROM[0] TO[0]
+Saving Mapping DIR[1] FROM[1] TO[1]
+Saving Mapping DIR[1] FROM[4] TO[2]
+Saving Mapping DIR[1] FROM[5] TO[3]
+Saving Mapping DIR[1] FROM[2] TO[5]
+Saving Mapping DIR[1] FROM[3] TO[4]
+Saving Mapping DIR[1] FROM[8] TO[8]
+Saving Mapping DIR[1] FROM[9] TO[9]
+Saving Mapping DIR[1] FROM[12] TO[10]
+Saving Mapping DIR[1] FROM[13] TO[11]
+Saving Mapping DIR[1] FROM[10] TO[13]
+Saving Mapping DIR[1] FROM[11] TO[12]
+Saving Mapping DIR[2] FROM[0] TO[0]
+Saving Mapping DIR[2] FROM[1] TO[1]
+Saving Mapping DIR[2] FROM[4] TO[5]
+Saving Mapping DIR[2] FROM[5] TO[4]
+Saving Mapping DIR[2] FROM[2] TO[3]
+Saving Mapping DIR[2] FROM[3] TO[2]
+Saving Mapping DIR[2] FROM[8] TO[8]
+Saving Mapping DIR[2] FROM[9] TO[9]
+Saving Mapping DIR[2] FROM[12] TO[13]
+Saving Mapping DIR[2] FROM[13] TO[12]
+Saving Mapping DIR[2] FROM[10] TO[11]
+Saving Mapping DIR[2] FROM[11] TO[10]
+Saving Mapping DIR[3] FROM[0] TO[0]
+Saving Mapping DIR[3] FROM[1] TO[1]
+Saving Mapping DIR[3] FROM[4] TO[3]
+Saving Mapping DIR[3] FROM[5] TO[2]
+Saving Mapping DIR[3] FROM[2] TO[4]
+Saving Mapping DIR[3] FROM[3] TO[5]
+Saving Mapping DIR[3] FROM[8] TO[8]
+Saving Mapping DIR[3] FROM[9] TO[9]
+Saving Mapping DIR[3] FROM[12] TO[11]
+Saving Mapping DIR[3] FROM[13] TO[10]
+Saving Mapping DIR[3] FROM[10] TO[12]
+Saving Mapping DIR[3] FROM[11] TO[13]
+Now reading mappings for [99;100]
+Saving Mapping DIR[1] FROM[0] TO[0]
+Saving Mapping DIR[1] FROM[1] TO[3]
+Saving Mapping DIR[1] FROM[2] TO[6]
+Saving Mapping DIR[1] FROM[3] TO[9]
+Saving Mapping DIR[1] FROM[4] TO[2]
+Saving Mapping DIR[1] FROM[5] TO[5]
+Saving Mapping DIR[1] FROM[6] TO[8]
+Saving Mapping DIR[1] FROM[7] TO[1]
+Saving Mapping DIR[1] FROM[8] TO[4]
+Saving Mapping DIR[1] FROM[9] TO[7]
+Saving Mapping DIR[1] FROM[10] TO[10]
+Saving Mapping DIR[2] FROM[0] TO[0]
+Saving Mapping DIR[2] FROM[1] TO[9]
+Saving Mapping DIR[2] FROM[2] TO[8]
+Saving Mapping DIR[2] FROM[3] TO[7]
+Saving Mapping DIR[2] FROM[4] TO[6]
+Saving Mapping DIR[2] FROM[5] TO[5]
+Saving Mapping DIR[2] FROM[6] TO[4]
+Saving Mapping DIR[2] FROM[7] TO[3]
+Saving Mapping DIR[2] FROM[8] TO[2]
+Saving Mapping DIR[2] FROM[9] TO[1]
+Saving Mapping DIR[2] FROM[10] TO[10]
+Saving Mapping DIR[3] FROM[0] TO[0]
+Saving Mapping DIR[3] FROM[1] TO[7]
+Saving Mapping DIR[3] FROM[2] TO[4]
+Saving Mapping DIR[3] FROM[3] TO[1]
+Saving Mapping DIR[3] FROM[4] TO[8]
+Saving Mapping DIR[3] FROM[5] TO[5]
+Saving Mapping DIR[3] FROM[6] TO[2]
+Saving Mapping DIR[3] FROM[7] TO[9]
+Saving Mapping DIR[3] FROM[8] TO[6]
+Saving Mapping DIR[3] FROM[9] TO[3]
+Saving Mapping DIR[3] FROM[10] TO[10]
+Ruins mod loaded.
+

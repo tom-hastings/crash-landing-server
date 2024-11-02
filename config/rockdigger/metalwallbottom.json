@@ -1,0 +1,17 @@
+   {
+    	id: 3541,
+    	nameid: "metalwallbottom",
+    	name: "Metal Wall Bottom",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }
+

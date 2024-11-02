@@ -1,0 +1,99 @@
+<-README: This file should be in the config/generatormods folder->
+
+<-GlobalFrequency controls how likely structures are to appear. Should be between 0.0 and 1.0. Lower to make less common->
+GlobalFrequency:0
+<-TriesPerChunk allows multiple attempts per chunk. Only change from 1 if you want very dense generation!->
+TriesPerChunk:1
+<-AllowedDimensions allows structures in corresponding dimension, by dimension ID. Default is Nether(-1) and OverWorld(0)->
+AllowedDimensions: 0
+<-LogActivated controls information stored into forge logs. Set to true if you want to report an issue with complete forge logs.->
+LogActivated:false
+<-ChatMessage controls lag warnings.->
+ChatMessage:false
+
+<-BacktrackLength - length of backtracking for wall planning if a dead end is hit->
+<-CurveBias - strength of the bias towards curvier walls. Value should be between 0.0 and 1.0.->
+<-LengthBiasNorm - wall length at which there is no penalty for generation>
+BacktrackLength:9
+CurveBias:0.5
+LengthBiasNorm:50
+
+
+<-Chest contents->
+<-Tries is the number of selections that will be made for this chest type.->
+<-Format for items is <itemID>,<selection weight>,<min stack size>,<max stack size> ->
+<-So e.g. 262,1,1,12 means a stack of between 1 and 12 arrows, with a selection weight of 1.->
+CHEST_EASY
+Tries:4
+262,2,1,12
+267,2,1,1
+300,1,1,1
+256,1,1,1
+287,1,1,1
+257,2,1,1
+301,1,1,1
+325,1,1,1
+298,1,1,1
+295,1,10,15
+371,2,3,8
+373-5,2,1,1
+373-4,1,1,1
+
+CHEST_MEDIUM
+Tries:6
+283,2,1,1
+335,2,1,1
+30,1,8,16
+284,1,1,1
+294,1,0,1
+347,1,1,1
+258,3,1,1
+358,1,1,1
+260,2,2,3
+345,1,1,1
+265,1,5,8
+341,1,1,3
+49,1,1,4
+297,2,8,15
+373-2,1,1,1
+373-37,3,1,1
+373-34,1,1,1
+373-9,1,1,1
+
+CHEST_HARD
+Tries:6
+29,2,6,12
+30,1,8,24
+357,2,8,18
+279,1,1,1
+328,1,12,24
+331,2,12,24
+327,2,1,1
+368,1,1,1
+52,1,2,4
+2256,1,1,1
+322,1,4,8
+46,2,8,20
+264,2,1,4
+266,2,30,64
+373-37,3,1,1
+373-49,2,1,1
+373-3,2,1,1
+
+CHEST_TOWER
+Tries:6
+262,1,1,12
+349,2,1,1
+314,1,1,1
+30,1,1,12
+265,1,2,3
+272,1,1,1
+258,1,1,1
+344,2,8,16
+329,1,1,1
+296,2,3,6
+289,1,2,4
+299,1,1,1
+86,1,1,5
+371,2,1,3
+

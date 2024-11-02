@@ -1,0 +1,97 @@
+<!-- 
+Custom recipes that will not be over written by Ender IO are added here.
+Examples of recipes can be found in AlloySmelterRecipes_Core.xml and general format
+documentation in SAGMillRecipes_Core/User.
+
+As well as adding custom recipes the operation of the Alloy Smelter as a vanilla furnace 
+can be controlled. It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false"/>    
+
+It is also possible to selectively disable vanilla furnace recipes.
+The following example disables the smelting of iron ingots, ender pearls and any form of iron ore registered in the
+ore dictionary.
+
+  <vanillaFurnaceRecipes>    
+    <exclude>
+      <itemStack itemID="265" /> 
+      <itemStack itemID="368" /> 
+      <itemStack oreDictionary="oreIron" />  
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+  
+  Add this line to disbale the creation of TE alloys using the Alloy Smelter.
+  <recipeGroup name="Thermal Expansion" enabled="false"/>
+-->
+
+<AlloySmelterRecipes>
+
+  <recipeGroup name="Landstryder">  
+  
+    <recipe name="Enderium Ingot" energyCost="800">
+      <input>
+        <itemStack itemID="20263" itemMeta="165"/>
+        <itemStack oreDictionary="dustEnderium" number="2"/>
+      </input>            
+      <output>
+       <itemStack oreDictionary="ingotEnderium" number="2" exp="1"/>        
+      </output>
+    </recipe>
+    
+    <recipe name="Fluxed Electrum Ingot" energyCost="800">      
+      <input>
+        <itemStack itemID="20263" itemMeta="165"/>     
+        <itemStack oreDictionary="dustElectrumFlux" number="2"/>
+      </input>
+      <output>
+       <itemStack oreDictionary="ingotElectrumFlux" number="2" exp="1"/>        
+      </output>
+    </recipe>
+    
+    <recipe name="Steel" energyCost="800">                      
+      <input>       
+        <itemStack oreDictionary="dustIron"/>
+        <itemStack oreDictionary="dustCoal" number="2"/>
+      </input>
+      <output>                          
+       <itemStack oreDictionary="ingotSteel" exp=".25"/>        
+      </output>
+    </recipe>
+
+    <recipe name="Bronze" energyCost="400">                      
+      <input>       
+        <itemStack oreDictionary="ingotTin"/>
+        <itemStack oreDictionary="ingotCopper" number="3"/>
+      </input>
+      <output>                          
+       <itemStack oreDictionary="ingotBronze" number="4" exp=".25"/>        
+      </output>
+    </recipe>
+ 
+    <recipe name="ArditeChunk" energyCost="3600">                      
+      <input>       
+        <itemStack itemID="264"/>
+        <itemStack oreDictionary="ingotElectrumFlux" number="1"/>
+		<itemStack itemID="87" number="8"/>
+      </input>
+      <output>                          
+       <itemStack itemID="31757" exp="1"/>      
+      </output>
+    </recipe>
+	
+	<recipe name="CobaltChunk" energyCost="3600">                      
+      <input>       
+        <itemStack itemID="388"/>
+        <itemStack oreDictionary="ingotEnderium" number="1"/>
+		<itemStack itemID="87" number="8"/>
+      </input>
+      <output>                          
+       <itemStack itemID="31756" exp="1"/>      
+      </output>
+    </recipe>
+	
+  </recipeGroup>
+  
+</AlloySmelterRecipes>  
+

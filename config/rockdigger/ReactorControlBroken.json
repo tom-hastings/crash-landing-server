@@ -1,0 +1,17 @@
+   {
+    	id: 3507,
+    	nameid: "ReactorControlBroken",
+    	name: "Broken Reactor Controller",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }
+

@@ -1,0 +1,11 @@
+{
+	"_name": "SpecialMobs.QuickSkeleton",
+	"drops": [],
+    "stats": [
+    {
+      "function": "modifier",
+      "attribute": "generic.followRange",
+      "value": 40
+    }
+  ]
+}

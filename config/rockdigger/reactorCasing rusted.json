@@ -1,0 +1,16 @@
+   {
+    	id: 3511,
+    	nameid: "reactorCasing rusted",
+    	name: "Reactor Casing Rusted",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }

@@ -1,0 +1,17 @@
+   {
+    	id: 3543,
+    	nameid: "metalwallrusted",
+    	name: "Metal Wall Rusted",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }
+

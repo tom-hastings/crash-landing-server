@@ -1,0 +1,11 @@
+{
+	"_name": "SpecialMobs.FireCreeper",
+	"drops": [],
+   "stats": [
+    {
+      "function": "modifier",
+      "attribute": "generic.followRange",
+      "value": 40
+    }
+  ]
+}

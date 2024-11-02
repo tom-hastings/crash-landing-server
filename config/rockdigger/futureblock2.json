@@ -1,0 +1,17 @@
+   {
+    	id: 3521,
+    	nameid: "futureblock2",
+    	name: "Future Block 2",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }
+

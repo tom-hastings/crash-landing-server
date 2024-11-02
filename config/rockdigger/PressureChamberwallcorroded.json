@@ -1,0 +1,17 @@
+   {
+    	id: 3509,
+    	nameid: "PressureChamberwallcorroded",
+    	name: "Pressure Chamber Wall Corroded",
+    	rarity: 100,
+    	vein: 10,
+    	height: 10,
+    	range: 5,
+    	
+    	biomes:
+    	[
+    		{
+    			biometype: FOREST
+    		}
+    	]
+    }
+

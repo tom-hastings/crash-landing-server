@@ -1,0 +1,21 @@
+{
+  "_name": "SpecialMobs.WitchSpider",
+  "drops": [],
+  "stats": [
+    {
+      "function": "modifier",
+      "attribute": "generic.followRange",
+      "value": 40
+    },
+    {
+      "function": "all",
+      "count": 0.1,
+      "functions": [
+        {
+          "function": "ridden_by",
+          "id": "Witch"
+        }
+      ]
+    }
+  ]
+}
